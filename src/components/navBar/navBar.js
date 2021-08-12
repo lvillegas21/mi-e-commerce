@@ -1,19 +1,20 @@
 import React from 'react'
 
-class navBar extends React.Component {
-    render() {
-        return ( <nav> <ul className = "nav justify-content-center">
-            <li className = "nav-item" >
-            <a className = "nav-link active" > inicio </a> </li>
-            <li className = "nav-item">
-            <a className = "nav-link" > productos </a> </li>
-            <li className = "nav-item" >
-            <a className = "nav-link" > ofertas </a> </li>
-            <li className = "nav-item" >
-            <a className = "nav-link" > contacto </a> </li>          
-            </ul> </nav>
+
+const estilo = {
+    contenedor:{
+        display: 'flex',
+		alignItems: 'center',
+        justifyContent: 'space-around',
+    },
+}
+const navBar = () => {
+
+        return ( <div style={estilo.contenedor}> 
+                    <h3>Sneakerz</h3>
+                </div>
         )
     }
-}
+
 
 export default navBar;
