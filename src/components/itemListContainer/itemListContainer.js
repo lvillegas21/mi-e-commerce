@@ -10,26 +10,16 @@ const style = {
         borderStyle:"solid",
         borderRadius:"2%"
     },
-    imagen:{
-        width:"200px",
-        height:"200px",
-        borderStyle:"solid",
-        borderRadius:"2%"
-
-    }
 }
 
-const itemListContainer =({producto,precio,img})=>{
+const ItemListContainer =({producto})=>{
     return(
-        <div style={style.seccion}>
+        <div>
             <div style={style.cont}>
-                <img src={img} alt="producto" style={style.imagen}/>
                 <h4>{producto}</h4>
-                <p>{precio}</p>
-                <button className="btn btn-outline-success">Comprar</button>
             </div>
         </div>
     )
 }
 
-export default itemListContainer;
+export default ItemListContainer;

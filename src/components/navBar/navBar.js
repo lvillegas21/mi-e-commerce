@@ -1,4 +1,5 @@
 import React from 'react'
+import CartWidget from '../CartWidget/CartWidget'
 
 
 const estilo = {
@@ -8,13 +9,30 @@ const estilo = {
         justifyContent: 'space-around',
     },
 }
-const navBar = () => {
+const NavBar = () => {
 
         return ( <div style={estilo.contenedor}> 
-                    <h3>Sneakerz</h3>
+                    
+                    <ul className="nav justify-content-center">
+                        <li className="nav-item">
+                            <p className="nav-link active">Home</p>
+                        </li>
+                        <li className="nav-item">
+                            <p className="nav-link">Productos</p>
+                        </li>
+                        <li className="nav-item">
+                        <CartWidget/>
+                        </li>
+                        <li className="nav-item">
+                            <p className="nav-link">Ofertas</p>
+                        </li>
+                        <li className="nav-item">
+                            <p className="nav-link">Contacto</p>
+                        </li>
+                    </ul>
                 </div>
         )
     }
 
 
-export default navBar;
+export default NavBar;
