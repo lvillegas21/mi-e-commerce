@@ -6,6 +6,7 @@ const estilo = {
         display: 'flex',
 		alignItems: 'center',
         justifyContent: 'space-around',
+        backgroundColor:"green"
     },
 }
 const NavBar = () => {

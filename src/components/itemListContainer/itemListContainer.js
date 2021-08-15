@@ -6,7 +6,7 @@ const style = {
         width: "210px",
         padding: "3px",
         margin: "10px 0px",
-        borderStyle:"solid",
+        borderStyle:"double",
         borderRadius:"2%"
     },
 }
