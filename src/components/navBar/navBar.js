@@ -11,8 +11,7 @@ const estilo = {
 }
 const NavBar = () => {
 
-        return ( <div style={estilo.contenedor}> 
-                    
+        return ( <div style={estilo.contenedor}>               
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
                             <p className="nav-link active">Home</p>

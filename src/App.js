@@ -2,10 +2,8 @@ import './App.css';
 
 import React from "react";
 
-import "./components/NavBar/NavBar";
 import NavBar from "./components/NavBar/NavBar";
 
-import './components/ItemListContainer/ItemListContainer'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 const style ={
