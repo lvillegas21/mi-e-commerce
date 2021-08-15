@@ -1,7 +1,6 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
 
-
 const estilo = {
     contenedor:{
         display: 'flex',

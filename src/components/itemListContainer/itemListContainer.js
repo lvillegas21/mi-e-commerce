@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const style = {    
     cont:{
         height: "330px",

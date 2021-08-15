@@ -16,7 +16,6 @@ const estilo = {
     }
 }
 
-
 const CartWidget =()=>{
     return(
         <div style={estilo.contenedor}>
